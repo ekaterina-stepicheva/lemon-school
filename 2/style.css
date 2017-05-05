@@ -1,0 +1,14 @@
+ol {
+	text-align: left;
+	color: SeaGreen;
+	font-size: 1.2em;
+}
+a {
+	color: SeaGreen;
+}
+a:hover {
+	text-decoration: none;
+}
+footer {
+	border-bottom: 1.5px dashed;
+}
