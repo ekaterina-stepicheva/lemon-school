@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.content {
+	border-right: 2px dotted #000;
+	border-left: 2px dotted #000;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo {
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+.logo-wrapper {
+	padding: 0 30px;
+}
+.eagle-team {
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+}
+.header-nav {
+	padding-left: 30px;
+	margin-top: 40px;
+	border: solid #000;
+	border-width:  4px 0;
+}
+.header-nav-list-item {
+	display: inline-block;
+}
+.header-nav-link {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+}
+.header-nav-link:hover {
+	background-color: #000;
+	color: #fff;
+}
+.text-content {
+	padding: 30px;
+}
+h1, h2, p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+	font-size: 40px;
+}
+p {
+	font-size: 22px;
+}
+.content-image {
+	text-align: center;
+	width: 100%;
+}
+h2 {
+	font-size: 30px;
+}
+.footer {
+	background-color: #000;
+	color: #fff;
+	display: block;
+	padding: 30px;
+}
+.footer-nav {
+  text-align: center;
+  font-size: 12px;
+}
+.footer-nav-list-item {
+	display: inline-block;
+  padding: 0 10px;
+}
+.footer-nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-nav-link:hover {
+  border-bottom: 1px dashed #fff;
+}
