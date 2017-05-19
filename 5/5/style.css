@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0;
+	margin-top: 30px;
+}
+.big-square {
+	background-color: #000;
+	margin: 30px 15px;
+	width: 770px;
+	height: 200px;
+	display: inline-block;
+}
+.small-square {
+	background-color: #000;
+	margin: 30px 15px;
+	width: 370px;
+	height: 200px;
+	display: inline-block;
+}
+.average-square {
+	background-color: #000;
+	margin: 30px 15px;
+	width: 570px;
+	height: 200px;
+	display: inline-block;
+}
