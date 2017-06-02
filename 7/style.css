@@ -26,22 +26,26 @@ body {
 	font-weight: 700;
 	font-size: 20px;
 	color: #000;
+	margin-left: 10px;
 }
 .logo-slogan {
 	font-size: 17px;
 	display: block;
 	color: #000;
+	margin-left: 60px;
 }
-.logo_link {
+.logo-link {
 	text-decoration: none;
 }
 img {
 	float: left;
-	margin-right: 10px;
+}
+.logo-wrapper {
+	width: 1000px;
+	margin: 0 auto;
 }
 .logo {
 	padding-top: 35px;
-	padding-left: 100px;
 }
 h1 {
 	text-transform: uppercase;
@@ -85,10 +89,14 @@ h2 {
 	line-height: 34px;
 	margin-left: 35px;
 }
+.icons-wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
 .icon-1,
 .icon-2 {
 	display: inline-block;
-	margin-right: 159px;
+	margin: 0 155px 0 0;
 	float: left;
 	font-size: 0;
 }
@@ -100,14 +108,23 @@ h2 {
 	width: 834px;
 	margin: 0 auto;
 }
-.icons-description {
-	width: 875px;
+.description-wrapper {
+	width: 1000px;
 	margin: 0 auto;
 }
-.description-1,
+.icons-description {
+	margin: 0 auto;
+}
+.description-1 {
+	display: inline-block;
+	margin: 25px 115px 0 -25px;
+	width: 200px;
+	text-align: center;
+	font-size: 24px;
+}
 .description-2 {
 	display: inline-block;
-	margin: 25px 125px 0 0;
+	margin: 25px 115px 0 0;
 	width: 200px;
 	text-align: center;
 	font-size: 24px;
@@ -146,10 +163,14 @@ h2 {
 	width: 1000%;
 	height: 100%;
 }
+.main-container {
+	width: 1000px;
+	margin: 0 auto;
+}
 .main-text {
 	padding-top: 140px;
 	width: 525px;
-	padding-left: 100px;
+	padding-right: 60px;
 }
 .name {
 	font-size: 26px;
@@ -178,15 +199,13 @@ h2 {
 	font-weight: 700;
 	font-size: 20px;
 	color: #000;
+	margin-left: 10px;
 }
 .logo-slogan-1 {
 	font-size: 17px;
 	display: block;
 	color: #000;
-}
-img {
-	float: left;
-	margin-right: 10px;
+	margin-left: 60px;
 }
 .logo-1 {
 	padding-top: 90px;
@@ -194,13 +213,13 @@ img {
 }
 .footer-content {
 	margin: 0 auto;
+	width: 1000px;
 }
 .left {
 	float: left;
-	padding-left: 100px;
 }
 .footer-text-content {
-	width: 500px;
+	width: 456px;
 }
 .text-2 {
 	color: #000;
@@ -208,11 +227,14 @@ img {
 	line-height: 26px;
 	padding-bottom: 35px;
 }
+.columns {
+	width: 1000px;
+	margin: 0 auto;
+}
 .right {
 	float: right;
-	width: 50%;
+	width: 400px;
 	padding-top: 90px;
-	padding-left: 100px;
 }
 h3 {
 	font-size: 26px;
@@ -253,11 +275,12 @@ img[title~=image-post] {
 }
 .footer {
 	width: 100%;
+	margin: 0 auto;
 	height: 70px;
 	background-color: #69d2e7;
 }
 .license {
-	padding-left: 100px;
+	padding-left: 172px;
 	padding-top: 25px;
 	float: left;
 }
