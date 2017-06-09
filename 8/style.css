@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+form {
+	margin: 10px auto;
+	width: 500px;
+	border: 1px solid #ccc;
+	box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+.square {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="mail"] {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 16px;
+  border: 1px solid #ccc;
+}
+textarea {
+	display: block;
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 16px;
+  border: 1px solid #ccc;
+	display: block;
+	resize: vertical;
+	padding: 5px;
+}
+textarea:focus {
+  outline: none;
+  border-color: #bfbfbf;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.square-text {
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.line {
+	border-top: 1px solid #ccc;
+	width: 480px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #bfbfbf;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+h1 {
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 32px;
+	font-weight: 700;
+}
+select {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+select:focus {
+  outline: none;
+  border-color: #bfbfbf;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.pressbutton {
+	margin-left: 10px;
+}
+.news {
+	margin: 0 0 5px 10px;
+}
+.gender-text {
+	display: inline-block;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+.radio-text {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.checkbox-text {
+	display: inline-block;
+	margin-left: 5px;
+	padding-top: 10px;
+}
+button {
+	display: inline-block;
+	width: 480px;
+	border: 1px solid #bbb;
+	background-color: #ccc;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  opacity: 0.8;
+}

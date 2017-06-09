@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	<form action="#">
+		<h1>Fill the form</h1>
+		<div class="square">
+			<label><span class="square-text">Your Name</span>
+				<input type="text" placeholder="John" name="your-name">
+			</label>
+		</div>
+		<div class="square">
+			<label><span class="square-text">Your Surname</span>
+				<input type="text" placeholder="Doe" name="your-surname">
+			</label>
+		</div>
+		<div class="square">
+			<label><span class="square-text">Your Email</span>
+				<input type="mail" placeholder="mail@example.com" name="your-email">
+			</label>
+		</div>
+		<div class="square">
+			<label><span class="square-text">Your Password</span>
+				<input type="password" placeholder="Password" name="your-password">
+			</label>
+		</div>
+		<div class="square">
+			<label><span class="square-text">Few words about You</span>
+				<textarea placeholder="Im awesome!" name="describe-yourself"></textarea>
+			</label>
+		</div>
+		<div class="line"></div>
+		<div class="square">
+			<label>Your Country
+				<select name="country" id="country">
+					<option value="uk">Ukraine</option>
+					<option value="usa">USA</option>
+					<option value="au">Australia</option>
+				</select>
+			</label>
+		</div>
+		<div class="line"></div>
+		<span class="gender-text">Your gender</span>
+		<div class="pressbutton">
+			<label>
+				<input type="radio" name="sex" value="M"><span class="radio-text">Male</span>
+			</label>
+			<label>
+				<input type="radio" name="sex" value="F"><span class="radio-text">Female</span>
+			</label>
+			<label>
+				<input type="radio" name="sex" value="O"><span class="radio-text">Other</span>
+			</label>
+		</div>
+		<div class="line"></div>
+		<div class="news">
+			<label>
+				<input type="checkbox" name="news"><span class="checkbox-text">Subscribe to newsseller</span>
+			</label>
+		</div>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
