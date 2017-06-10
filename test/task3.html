@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-size: 14px;
+			font-family: Arial, sans-serif;
+		}
+		form {
+			margin: 10px auto;
+			width: 400px;
+			box-shadow: 0 20px 60px 0 rgba(0, 0, 0, .2), 0 0 6px 0 rgba(0, 0, 0, .4) inset;
+			border: 1px solid #000;
+		}
+		.square {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		input[type="text"] {
+			display: inline-block;
+			width: 100%;
+			padding: 5px;
+			font-size: 14px;
+		  border: 1px solid #000;
+		}
+		.square-text {
+			display: inline-block;
+			padding: 15px 0 5px 0;
+		}
+		.radio-text {
+			display: inline-block;
+			padding: 15px 0 5px 10px;
+		}
+		.radio_text {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		input[type="radio"] {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.radio-group {
+			padding-left: 10px;
+			padding-bottom: 5px;
+		}
+		button {
+			display: inline-block;
+			width: 120px;
+			height: 20px;
+			background-color: #000;
+			color: #fff;
+			border: 1px solid #000;
+			cursor: pointer;
+		  font-size: 14px;
+		  margin-top: 5px;
+		  margin-left: 10px;
+		  margin-bottom: 15px;
+		}
+		.radio-group > label {
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form action="#">
+		<div class="square">
+			<label><span class="square-text">Ваше имя</span>
+				<input type="text" placeholder="Например, Иванов Иван Иванович" name="your-name">
+			</label>
+		</div>
+		<div class="square">
+			<label><span class="square-text">Ваш род деятельности</span>
+				<input type="text" placeholder="Например, Выращиваю огурцы" name="your-activities">
+			</label>
+		</div>
+		<div class="radio-text">Согласны ли Вы с условиями?</div>
+		<div class="radio-group">
+			<label>
+				<input type="radio" name="yes" value="Y">
+				<span class="radio_text">Категорически ДА!</span>
+			</label>
+			<label>
+				<input type="radio" name="no" value="N">
+				<span class="radio_text">Категорически НЕТ!</span>
+			</label>
+		</div>
+		<button type="submit">Отправить</button>
+	</form>
+</body>
+</html>

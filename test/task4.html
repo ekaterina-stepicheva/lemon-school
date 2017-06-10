@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Поле для игры</title>
+	<style>
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+		table {
+		  border-collapse: collapse;
+		  margin: 0 auto;
+		  overflow: hidden;
+		}
+		td {
+		  position: relative;
+		  width: 60px;
+		  height: 60px;
+		  border: 1px solid #000;
+		}
+		td::after {
+		  content: '';
+		  position: absolute;
+		  top: calc(50% - 20px);
+		  left: calc(50% - 20px);
+		  width: 40px;
+		  height: 40px;
+		  background-color: #00f;
+		  border-radius: 50%;
+		}
+		td:hover {
+		  background-color: #f00;
+		}
+		td:hover::after {
+		  background-color: #0f0;
+		}
+		tr:hover {
+		  background-color: #f00;
+		}
+		td:hover::before {
+		  content: '';
+		  position: absolute;
+		  width: 60px;
+		  height: 600px;
+		  background-color: #f00;
+		  top: 0;
+		  left: 0;
+		  z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<table>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+	  <tr>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+1. input[type="checkbox"]
+2. input[type="checkbox"]:not(:checked)
+3. [id|="message"]
+4. [id^="message-"]
+5. a[href$=".zip"]
+6. [data-action~="delete"]
+7. [data-action]:not([data-action~="delete"]
+8. #messages li:nth-child(2n)
+9. h3#widget-title + *
+10. h3#widget-title ~ a
+11. #messages li:last-child a
