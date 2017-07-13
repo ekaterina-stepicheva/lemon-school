@@ -1,0 +1,418 @@
+/*          responsive
+-----------------------------------*/
+
+			/*1200px*/
+@media screen and (min-width: 1200px) {
+	.logo,
+	.services {
+		padding-left: 5%;
+	}
+	.banner-image {
+		top: -30px;
+	}
+	.header-about > h2 {
+		margin-top: -110px;
+	}
+	.info-title {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	.info-description {
+		font-size: 16px;
+		line-height: 20px;
+		width: 90%;
+	}
+}
+
+			/*1024px*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+	.logo,
+	.services {
+		padding-left: 5%;
+	}
+	.banner-image {
+		top: -50px;
+	}
+	.header-about > h2 {
+		margin-top: -150px;
+	}
+	.column {
+		width: 49%;
+	}
+	.portfolio-details-link {
+		width: 50%;
+	}
+	.banner-image {
+		background: url('images/banner-bg.jpg') 100% 100% no-repeat;
+		background-position: center;
+		background-size: 100% 90%;
+		position: relative;
+		z-index: 50;
+		width: 100%;
+		top: -5px;
+	}
+}
+
+			/*768px*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.nav {
+		display: none;
+	}
+	.burger-nav.active {
+		display: block;
+	}
+	.burger-button {
+		display: inline-block;
+	}
+	.burger-li {
+		display: block;
+	}
+	.burger-menu {
+		width: 25%;
+	}
+	.logo {
+		padding-left: 10%;
+	}	
+	.banner-image {
+		background: url('images/banner-bg.jpg') 100% 100% no-repeat;
+		background-position: center;
+		background-size: 100% 80%;
+		position: relative;
+		z-index: 50;
+		width: 100%;
+		top: -5px;
+	}
+	.header-about {
+		margin-top: -150px;
+	}
+	.column {
+		display: inline-flex;
+		width: 49%;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 80px;
+	}
+	.service-image {
+		display: none;
+	}
+	.row-services {
+		width: 100%;
+	}
+	.row-services-col {
+		width: 45%;
+		margin: 0 auto;
+	}
+	.monogram-another {
+		text-align: center;
+		margin-bottom: 10px;
+		color: #7e8287;
+		font-size: 16px;
+	}
+	.row-services-description > h2 {
+		margin-bottom: 30px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 800;
+		font-size: 46px;
+		color: #02918c;
+	}
+	.row-services-description > p {
+		text-align: center;
+		color: #7e8287;
+		font-size: 16px;
+		line-height: 41px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.services-columns {
+		width: 100%;
+	}
+	.row-services-col {
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+	}
+	.col-width {
+		width: 100%;
+		display: block;
+		padding: 20px 40px;
+	}
+	.col-width > h4 {
+		margin: 10px 0;
+	}
+	.header-portfolio > p {
+		width: 60%;
+	}
+	.portfolio-details-link {
+		width: 50%;
+	}
+	.portfolio-details-link:hover .info {
+		opacity: 0;
+	}
+	input.email-input,
+	input.name-input {
+		width: 70%;
+	}
+}
+
+		/*480px*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.wrapper {
+		margin: 0 auto;
+	}
+	.logo {
+		padding-left: 10%;
+	}
+	.nav {
+		display: none;
+	}
+	.burger-nav.active {
+		display: block;
+	}
+	.burger-button {
+		display: inline-block;
+	}
+	.burger-li {
+		display: block;
+	}
+	.burger-menu {
+	 	width: 40%;
+	 	opacity: .9;
+	}
+	.burger-menu-list:hover {
+		color: #fff;
+	}
+	.banner-image {
+		background: url('images/banner-bg.jpg') 100% 100% no-repeat;
+		background-position: center;
+		background-size: 100% 50%;
+		position: relative;
+		z-index: 50;
+		width: 100%;
+		top: -110px;
+	}
+	.service-image {
+		display: none;
+	}
+	h3 {
+		padding-top: 200px;
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 44px;
+		letter-spacing: 16px;
+	}
+	.row-banner > p {
+		font-size: 16px;
+	}
+	.know-more,
+	.icon {
+		top: -35px;
+	}
+	.about-me {
+		margin-top: -450px;
+	}
+	.column {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.column + .column {
+		border: 0;
+	}
+	.column-about {
+		width: 50%;
+	}
+	.row-services {
+		width: 100%;
+		height: 100%;
+	}
+	.row-services-col {
+		width: 45%;
+		margin: 0 auto;
+	}
+	.monogram-another {
+		text-align: center;
+		margin-bottom: 10px;
+		color: #7e8287;
+		font-size: 16px;
+	}
+	.row-services-description > h2 {
+		margin-bottom: 30px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 800;
+		font-size: 46px;
+		color: #02918c;
+	}
+	.row-services-description > p {
+		text-align: center;
+		color: #7e8287;
+		font-size: 16px;
+		line-height: 41px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.services-columns {
+		width: 100%;
+	}
+	.row-services-col {
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+	}
+	.col-width {
+		width: 100%;
+		display: block;
+		padding: 20px 40px;
+	}
+	.col-width > h4 {
+		margin: 10px 0;
+	}
+	.header-portfolio > p {
+		width: 80%;
+	}
+	.portfolio-details-link {
+		width: 100%;
+	}
+	.header-contact {
+		width: 80%;
+	}
+	.portfolio-details-link:hover .info {
+		opacity: 0;
+	}
+	input.email-input,
+	input.name-input {
+		width: 70%;
+	}
+}
+
+			/*479px*/
+@media screen and (max-width: 479px) {
+	.wrapper {
+		max-width: 479px;
+	}
+	.logo {
+		padding-left: 10%;
+	}
+	.nav {
+		display: none;
+	}
+	.burger-nav.active {
+		display: block;
+	}
+	.burger-button {
+		display: inline-block;
+	}
+	.burger-li {
+		display: block;
+	}
+	.burger-menu {
+	 	width: 40%;
+	 	opacity: .9;
+	}
+	.burger-menu-list:hover {
+		color: #fff;
+	}
+	.banner-image {
+		background: url('images/banner-bg.jpg') 100% 100% no-repeat;
+		background-position: center;
+		background-size: 100% 50%;
+		position: relative;
+		z-index: 50;
+		width: 100%;
+		top: -110px;
+	}
+	.service-image {
+		display: none;
+	}
+	h3 {
+		padding-top: 200px;
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 44px;
+		letter-spacing: 16px;
+	}
+	.row-banner > p {
+		font-size: 16px;
+	}
+	.know-more,
+	.icon {
+		top: -35px;
+	}
+	.about-me {
+		margin-top: -450px;
+	}
+	.column {
+		margin-top: 10px;
+		width: 100%;
+	}
+	.column + .column {
+		border: 0;
+	}
+	.column-about {
+		width: 50%;
+	}
+	.row-services {
+		width: 100%;
+		height: 100%;
+	}
+	.row-services-col {
+		width: 45%;
+		margin: 0 auto;
+	}
+	.monogram-another {
+		text-align: center;
+		margin-bottom: 10px;
+		color: #7e8287;
+		font-size: 16px;
+	}
+	.row-services-description > h2 {
+		margin-bottom: 30px;
+		text-transform: uppercase;
+		text-align: center;
+		font-weight: 800;
+		font-size: 46px;
+		color: #02918c;
+	}
+	.row-services-description > p {
+		text-align: center;
+		color: #7e8287;
+		font-size: 16px;
+		line-height: 41px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.services-columns {
+		width: 100%;
+	}
+	.row-services-col {
+		width: 49%;
+		display: inline-block;
+		text-align: center;
+	}
+	.col-width {
+		width: 100%;
+		display: block;
+		padding: 20px 40px;
+	}
+	.col-width > h4 {
+		margin: 10px 0;
+	}
+	.header-portfolio > p {
+		width: 80%;
+	}
+	.portfolio-details-link {
+		width: 100%;
+	}
+	.header-contact {
+		width: 80%;
+	}
+	.portfolio-details-link:hover .info {
+		opacity: 0;
+	}
+	input.email-input,
+	input.name-input {
+		width: 70%;
+	}
+}
