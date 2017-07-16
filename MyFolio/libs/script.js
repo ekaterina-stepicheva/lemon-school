@@ -1,4 +1,4 @@
-$('#burger-button').on('click', function() {
+$('.burger-button').on('click', function() {
 	$('.burger-nav').toggleClass('active')
 });
 
