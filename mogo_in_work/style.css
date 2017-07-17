@@ -1,0 +1,208 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Kaushan Script', cursive;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:hover, 
+a:visited,
+a {
+	text-decoration: none;
+}
+html, body {
+    height: 100%;
+}
+li {
+    list-style-type: none;
+}
+.bg-image {
+    background: url('../images/bg_img.jpg') 100% 100% no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.bg-gradient {
+    background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9) 0%, rgba(252, 227, 138, 0.9) 100%);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	display: block;
+}
+.header {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+/*    background-image: linear-gradient(to bottom, rgba(243, 129, 129, .9) 0%, rgba(233, 134, 131, 0.9) 100%);*/
+}
+.row-header {
+    vertical-align: middle;
+}
+.logotype {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.list-nav {
+    float: right;
+    margin-top: -50px;
+    margin-bottom: 25px;
+}
+.nav-list {
+	display: inline-block;
+    padding-right: 60px;
+    vertical-align: middle;
+}
+.nav-list-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.nav-list-item,
+.nav-list-item::after,
+.nav-list-item::before {
+    transition: all .5s;
+}
+.nav-list-item:hover {
+    color: #fce38a;
+}
+.nav-list-item::after {
+    position: absolute;
+    bottom: 0;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background-color: #fce38a;
+    height: 3px;
+}
+.nav-list-item:hover::after {
+    width: 100%;
+}
+.banner {
+}
+.carousel {
+    margin-top: 160px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+h2 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 120px;
+    text-transform: uppercase;
+    width: 80%;
+    margin: 0 auto;
+}
+.line-another {
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 70px auto 50px;
+}
+.learn-more {
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    margin: 0 auto 100px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.slick-next {
+    border: none;
+    background-color: transparent;
+    border-top: 3px solid #fff;
+    width: 280px;
+    margin-left: 15px;
+    padding-top: 20px;
+    text-align: left;
+    color: #fff;
+    opacity: .7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.slick-next::before {
+	content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #f38181;
+    height: 4px;
+    top: 0;
+    border-top: 3px solid #fff;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 3s;
+    transition-duration: 3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.slick-next:hover::before, .slick-next:focus::before, .slick-next:active::before {
+    right: 0;
+}
+.number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    opacity: .7;
+}
+.slick-next:hover {
+    opacity: 1;
+}
